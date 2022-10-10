@@ -8,5 +8,20 @@ https://blog.csdn.net/qq_28833545/article/details/115007162
 通过修改hosts文件,将可使用的谷歌翻译服务器ip解析到谷歌翻译，从而恢复谷歌翻译。
 
 # 目前可用
+```
 220.181.174.162 translate.googleapis.com
 113.108.239.162 translate.google.com
+```
+
+# 可用ip查询
+若ip无法访问，可通过如下方式替换ip。通过这个多地ping工具，查询最快速度的ip  
+https://ping.chinaz.com/translate.google.cn  
+然后进入hosts文件中替换成  
+（windows下hosts默认目录为：C:\Windows\System32\drivers\etc\hosts）
+```
+(上述查到的ip) translate.google.com
+```
+如：
+```
+180.163.151.162 translate.google.com
+```
