@@ -11,14 +11,20 @@ https://blog.csdn.net/qq_28833545/article/details/115007162
 <a href='https://github.com/imoki/GoogleTranslate/releases/download/v1.0.0/GoogleTranslate.bat'>点击此处下载“一键恢复谷歌翻译”脚本</a>，双击运行此脚本即可恢复谷歌翻译  
 
 ## hosts文件默认位置
-* Windows：C:\Windows\System32\drivers\etc\hosts
-* Mac/Linux：/etc/hosts
-* Android：/system/etc/hosts
+* Windows  
+C:\Windows\System32\drivers\etc\hosts
+* Mac/Linux  
+/etc/hosts
+* Android  
+/system/etc/hosts
 
 ## 清除DNS缓存
-* Windows 命令行执行：ipconfig /flushdns
-* macOS 执行命令：sudo killall -HUP mDNSResponder
-* Chrome 浏览器地址栏访问：chrome://net-internals/#dns，点击「Clear host cache」按钮
+* Windows 命令行执行  
+ipconfig /flushdns
+* macOS 执行命令  
+sudo killall -HUP mDNSResponder
+* Chrome 浏览器  
+地址栏访问：chrome://net-internals/#dns，点击「Clear host cache」按钮
  
 ## 目前可用
 ```
