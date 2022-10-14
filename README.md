@@ -17,6 +17,8 @@ C:\Windows\System32\drivers\etc\hosts
 /etc/hosts
 * Android  
 /system/etc/hosts
+* ios   
+/etc/hosts
 
 ## 清除DNS缓存
 * Windows 命令行执行  
@@ -33,7 +35,8 @@ sudo killall -HUP mDNSResponder
 ```
 
 ## 可用ip查询
-若ip无法访问，可通过如下方式替换ip。通过这个多地ping工具，查询最快速度的ip  
+若ip无法访问，可通过如下方式替换ip。  
+1. 通过这个多地ping工具，查询最快速度的ip  
 https://ping.chinaz.com/translate.google.cn  
 然后进入hosts文件中替换成  
 （windows下hosts默认目录为：C:\Windows\System32\drivers\etc\hosts）
@@ -43,4 +46,19 @@ https://ping.chinaz.com/translate.google.cn
 如：
 ```
 180.163.151.162 translate.google.com
+```  
+
+2. 通过ping或nslookup命令  
+命令行窗口输入下述任意一个命令，得到所需ip地址
 ```
+ping translate.googleapis.com
+```
+或
+```
+nslookup translate.googleapis.com
+```
+或
+```
+nslookup translate.google.com
+```
+
