@@ -62,3 +62,15 @@ nslookup translate.googleapis.com
 nslookup translate.google.com
 ```
 
+## 其它可替代翻译
+* 微软翻译  
+https://cn.bing.com/translator/?h_text=msn_ctxt&setlang=zh-cn  
+* 有道翻译  
+https://fanyi.youdao.com  
+* 百度翻译  
+https://fanyi.baidu.com  
+* 腾讯翻译  
+https://fanyi.qq.com  
+* 金山词霸  
+https://www.iciba.com  
+
