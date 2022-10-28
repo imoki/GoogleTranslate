@@ -70,7 +70,15 @@ https://fanyi.youdao.com
 * 百度翻译  
 https://fanyi.baidu.com  
 * 腾讯翻译  
+https://transmart.qq.com/zh-CN/index  
+* 腾讯翻译君  
 https://fanyi.qq.com  
 * 金山词霸  
 https://www.iciba.com  
+* deepl  
+https://www.deepl.com/translator  
+* 讯飞翻译  
+https://fanyi.xfyun.cn/console/trans/text  
+* 阿里翻译  
+https://translate.alibaba.com/  
 
